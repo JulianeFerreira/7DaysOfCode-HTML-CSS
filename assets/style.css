@@ -1,5 +1,6 @@
 :root {
     --text-color: #667085;
+    --text-color-title: #101828;
     --main-color: #8E2424;
 }
 
@@ -59,6 +60,10 @@
 }
 
 .content .navigation ul li a{
+    color: var(--text-color-title);
+}
+
+.content .navigation ul li a:hover {
     color: var(--text-color);
 }
 
@@ -75,7 +80,7 @@
     height: 44px;
     border: 0;
     background-color: #ffffff;
-    color: --text-color;
+    color: var(--text-color-title);
     cursor: pointer;
     margin-right: 10px;
 }
@@ -113,6 +118,7 @@
 .cabecalho .container h1 {
     font-size: 48px;
     font-weight: 600;
+    color: var(--text-color-title);
 }
 
 .cabecalho .content {
@@ -123,4 +129,30 @@
 
 .cabecalho .content p {
     color: var(--text-color);
+}
+
+.metricas {
+   padding: 20px 0;
+}
+
+.metrica-item {
+    height: 192px;
+    width: 280px;
+}
+
+.metrica-item span {
+    font-size: 60px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.metrica-item h4 {
+    font-size: 18px;
+    color: var(--text-color-title);
+}
+
+.metrica-item p {
+    color: var(--text-color);
+    padding: 10px 0;
+    font-size: 14px;
 }
