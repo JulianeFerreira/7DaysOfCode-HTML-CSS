@@ -1,6 +1,6 @@
 :root {
     --text-color: #667085;
-    --text-color-title: #101828;
+    --text-color-title: #1a2948;
     --main-color: #8E2424;
 }
 
@@ -9,15 +9,30 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-size: 16px;
     font-family: 'Inter', sans-serif;
     list-style-type: none;
+}
+
+.title {
+    color: var(--text-color-title);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.supporting-text {
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.main-title {
+    color: var(--main-color);
 }
 
 .nav-bar {
     height: 80px;
 }
-
 
 .container {
     display: flex;
@@ -25,7 +40,6 @@
     align-items: center;
     justify-content: space-between;
     width: 1280px;
-    height: 44px;
     padding: 0px 32px;
     margin: 0 auto;
     margin-top: 30px;
@@ -34,13 +48,6 @@
 .logo {
     display: flex;
     align-items: center;
-}
-
-
-.logo p {
-    font-size: 18px;
-    color: #3A404E;
-    padding: 0 8px;
 }
 
 
@@ -101,38 +108,21 @@
     cursor: pointer;
 }
 
-.cabecalho {
-    height: 407px;
+.cabecalho, .metricas {
+    height: 307px;
     text-align: center;
-    padding: 90px 0px;
-}
-
-.cabecalho p {
-    color: var(--main-color);
+    padding: 40px 0;
+   
 }
 
 .cabecalho .container {
     flex-direction: column;
 }
 
-.cabecalho .container h1 {
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--text-color-title);
-}
-
 .cabecalho .content {
     width: 792px;
     height: 83px;
     padding: 30px 0;
-}
-
-.cabecalho .content p {
-    color: var(--text-color);
-}
-
-.metricas {
-   padding: 20px 0;
 }
 
 .metrica-item {
@@ -146,13 +136,42 @@
     font-weight: 600;
 }
 
-.metrica-item h4 {
-    font-size: 18px;
+.metrica-item h3 {
     color: var(--text-color-title);
+    font-size: 18px;
 }
 
-.metrica-item p {
-    color: var(--text-color);
-    padding: 10px 0;
-    font-size: 14px;
+.vagas {
+    height: 1400px;
+    margin-top: 30px;
+}
+
+.vagas .talentos .container{
+    display: flex;
+    flex-direction: column;
+    height: 602px;
+    text-align: center;
+}
+
+.vagas .talentos img {
+    width: 100%;
+}
+
+.vagas-abertas .item {
+    margin: 0 auto;
+}
+
+.vagas-abertas .job-post {
+    width: 768px;
+    padding: 20px 20px;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+
+.vagas-abertas .details .supporting-text{
+    display: inline-block;
+    padding: 20px 20px 0 0;
 }
