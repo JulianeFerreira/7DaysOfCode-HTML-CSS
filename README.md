@@ -8,4 +8,8 @@
 
 #### - Terceiro dia desenvolver sessão de métricas.
 
-#### - Quarto dia desenvolver sessão de vagas.
+#### - Quarto dia desenvolver sessão de talentos.
+
+#### - Quinto dia desenvolver sessão de vagas.
+
+#### - Sexto dia desenvolver sessão de depoimentos.

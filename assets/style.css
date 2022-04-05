@@ -175,3 +175,29 @@
     display: inline-block;
     padding: 20px 20px 0 0;
 }
+
+.depoimentos {
+    height: 500px;
+    text-align: center;
+}
+
+.depoimentos .content {
+    width: 1216px;
+    height: 404px;
+    border-radius: 16px;
+    padding: 64px;
+    background: rgba(19, 4, 4, 0.03);
+}
+
+.depoimentos .avatar {
+    display: inline-block;
+}
+
+.depoimentos .avatar-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: rgba(150, 134, 134, 0.706);
+}
