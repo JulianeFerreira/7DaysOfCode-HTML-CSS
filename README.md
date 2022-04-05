@@ -13,5 +13,3 @@
 #### - Quinto dia desenvolver sessão de vagas.
 
 #### - Sexto dia desenvolver sessão de depoimentos.
-  
-#### - Quinto dia desenvolver sessão de vagas.
